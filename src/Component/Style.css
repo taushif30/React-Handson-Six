@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(lightblue,pink,white);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color:rgb(47, 20, 144);
+    font-size: xx-large;
+    padding-top: 10px;    
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    color: pink;
+}
+
+.studentTop{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.studentTop button{
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 120px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.studentTop button:hover{
+    background-color: aqua;
+    
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+
+    
+}
+
+.table table{
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+table th, tr, td{
+    border-bottom: 1px solid black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.table a:hover{
+   color: red;
+}
+
+
+.editsection{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.editStudentbtn{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    gap: 20px;
+}
+
+
+.editStudentbtn button{
+    background-color: aliceblue;
+    border-radius: 25px;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    
+    
+}
+
+.editStudentbtn button:hover{
+    background-color: gray;
+}
+
+.editStuTop{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.editStudown{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.editStuTop input{
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.editStudown input{
+    
+    /* height: 40px;
+    width: 220px; */
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+
+
+
+@media  (max-width:450px){
+    .editStuTop{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .editStudown{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .editStudentbtn{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    table th, tr, td{
+        padding: 10px;
+    }
+
+    .studentTop{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .studentTop button{
+        border: 2px solid black;
+        border-radius: 25px;
+        width: 120px;
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+
+    
+
+
+
+
+
+}
+
+
+
+
+
